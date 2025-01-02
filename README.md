@@ -54,7 +54,7 @@ This project is distributed under a **Custom License** designed by TheShadow131Y
    - Derivative versions must share the same conditions as this license.
    - Any violation will result in the automatic revocation of usage rights.
 
-For full details, refer to the [LICENSE](./LICENSE) file.
+For full details, refer to the [LICENSE](./LICENSE.md) file.
 
 ---
 

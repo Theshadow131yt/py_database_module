@@ -4,7 +4,7 @@ from .src import *
 
 # Metadata:
 __author__ = "TheShadow131YT"
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 __dependencies__ = []
 
 # Code:

@@ -39,4 +39,16 @@ class DBManager:
         """
         pass
 
+    def get_connetion(self, name: str) -> object | None:
+        """
+        Obtain an instance of the connection.
+
+        Args:
+            - name (str): The name of the connection.
+
+        Returns:
+            - object | None: The instance of the connection if exists, else None.
+        """
+        return self.connections.get(name, None)
+
 db_manager = DBManager()

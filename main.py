@@ -40,12 +40,3 @@ class DBManager:
         pass
 
 db_manager = DBManager()
-
-def main():
-    import DBConnetion
-    connection = DBConnetion("test", "test")
-
-    print(db_manager.connections)
-
-if __name__ == "__main__":
-    main()

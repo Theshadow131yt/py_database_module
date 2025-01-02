@@ -1,6 +1,6 @@
 # Imports:
 from .main import DBManager, db_manager
-import src
+from .src import *
 
 # Metadata:
 __author__ = "TheShadow131YT"

@@ -43,16 +43,16 @@ This project is distributed under a **Custom License** designed by TheShadow131Y
 
 ### License Summary:
 1. **Permissions**:
-   - Personal and commercial use allowed.
-   - Modifications and redistribution permitted under specific conditions.
+  - Personal and commercial use allowed.
+  - Modifications and redistribution permitted under specific conditions.
 
 2. **Restrictions**:
-   - Proper credit to the original author (TheShadow131YT) is mandatory for all distributions.
-   - Sub-licensing the software or using it for malicious purposes is prohibited.
+  - Proper credit to the original author (TheShadow131YT) is mandatory for all distributions.
+  - Sub-licensing the software or using it for malicious purposes is prohibited.
 
 3. **Additional Conditions**:
-   - Derivative versions must share the same conditions as this license.
-   - Any violation will result in the automatic revocation of usage rights.
+  - Derivative versions must share the same conditions as this license.
+  - Any violation will result in the automatic revocation of usage rights.
 
 For full details, refer to the [LICENSE](./LICENSE.md) file.
 

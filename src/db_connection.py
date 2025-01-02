@@ -18,7 +18,9 @@ class DBConnection:
             - name (str): The name of the connection.
             - driver (str): The drive to used in the connection.
         """
-        pass
+        from ..main import db_manager
+
+        db_manager._add_connection(name, self)
 
     # Privates methods:
     @abstractmethod

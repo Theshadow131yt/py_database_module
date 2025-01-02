@@ -2,4 +2,4 @@
 from .db_connection import DBConnection
 
 # Code:
-__all__ = [DBConnection]
+__all__ = ["DBConnection"]

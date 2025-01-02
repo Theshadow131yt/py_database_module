@@ -12,17 +12,18 @@ class DBManager:
         """
         Initializes an instance of a database manager.
         """
-        pass
+        self.connections = {}
 
     # Privates methods:
-    def _add_connection(self, name: str) -> None:
+    def _add_connection(self, name: str, connection) -> None:
         """
         Add a new connection to a database in the manager.
 
         Args:
             - name (str): The name of the connection.
+            - connection: Instance of the connection.
         """
-        pass
+        self.connections[name] = connection
 
     # Publics methods:
     def create_connection(self, name: str, driver: str) -> bool:
@@ -37,3 +38,14 @@ class DBManager:
             - bool: True if connection created successfully, False otherwise.
         """
         pass
+
+db_manager = DBManager()
+
+def main():
+    import DBConnetion
+    connection = DBConnetion("test", "test")
+
+    print(db_manager.connections)
+
+if __name__ == "__main__":
+    main()

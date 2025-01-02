@@ -1,5 +1,5 @@
 # Imports:
-from .main import DBManager
+from .main import DBManager, db_manager
 import src
 
 # Metadata:
@@ -8,7 +8,5 @@ __version__ = "0.0.0"
 __dependencies__ = []
 
 # Code:
-db_manager = DBManager()
-
-__all__ = [db_manager]
+__all__ = ["DBManager", "db_manager"]
 __all__.extend(src.__all__)
